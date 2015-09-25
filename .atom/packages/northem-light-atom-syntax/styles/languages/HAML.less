@@ -1,0 +1,155 @@
+/*
+#************************************************#
+#    Northem Light Atom Syntax - Language HAML   #
+#------------------------------------------------#
+#                    HAML.less                   #
+#        http://arcticicestudio.com/Northem      #
+#                                                #
+#               Arctic Ice Studio                #
+#               Copyright (c) 2015               #
+#         development@arcticicestudio.com        #
+#                                                #
+#      Created : 2015-08-12 14:47 +0100 UTC      #
+#      Modified: 2015-08-12 20:44 +0100 UTC      #
+#************************************************#
+
+[Description]
+This file defines all language specific syntax highlighting classes for HAML.
+
+[Dependencies]
+Syntax Highlighting based on the following packages:
+  - "language-haml" (https://atom.io/packages/language-haml) by "cannikin " (https://atom.io/users/cannikin)
+
+[License]
+Copyright (C) 2015 Arctic Ice Studio <development@arcticicestudio.com>
+
+Northem code is licensed under "GPL3" (http://www.gnu.org/licenses/gpl.txt).
+Northem color palette itself is licensed under "CC BY-NC-SA 4.0" (http://creativecommons.org/licenses/by-nc-sa/4.0).
+*/
+.text.haml,
+.source.ruby.embedded.haml {
+  color: @color-syntax-other;
+  /*
+   * ===============
+   * = PUNCTUATION =
+   * ===============
+   */
+  .punctuation {
+    &.definition {
+      &.tag {
+        color: @color-syntax-keyword;
+      }
+      &.string {
+        &.begin, &.end {
+          color: @color-syntax-symbol;
+        }
+      }
+      &.constant {
+        color: @color-syntax-operator;
+      }
+      &.prolog {
+        color: @color-syntax-doctype;
+        font-weight: bold;
+      }
+    }
+    &.separator {
+      &.key-value {
+        color: @color-syntax-operator;
+      }
+      &.other {
+        color: @color-syntax-operator;
+      }
+      &.object {
+        color: @color-syntax-symbol;
+      }
+    }
+  }
+
+  /*
+   * ===========
+   * = KEYWORD =
+   * ===========
+   */
+  .keyword {
+    &.control {
+      color: @color-syntax-keyword;
+    }
+  }
+
+  /*
+   * ===========
+   * = SUPPORT =
+   * ===========
+   */
+  .support {
+    &.function {
+      color: @color-syntax-function;
+
+      /*&.viewhelpers {
+        color: @color-syntax-function;
+      }*/
+    }
+  }
+
+  /*
+   * ==========
+   * = ENTITY =
+   * ==========
+   */
+  .entity {
+    &.name {
+      &.tag {
+        color: @color-syntax-keyword;
+
+        &.class {
+          color: @color-syntax-class;
+        }
+      }
+    }
+  }
+
+  /*
+   * ============
+   * = CONSTANT =
+   * ============
+   */
+  .constant {
+    &.other {
+      &.symbol {
+        color: @color-syntax-variable;
+
+        &.hashkey {
+          color: @color-syntax-constant;
+        }
+      }
+    }
+    &.numeric {
+      color: @color-syntax-number;
+    }
+  }
+
+  /*
+   * ==========
+   * = STRING =
+   * ==========
+   */
+  .string {
+    color: @color-syntax-string;
+  }
+
+  /*
+   * ========
+   * = META =
+   * ========
+   */
+  .meta {
+    &.line {
+      color: @color-syntax-other;
+    }
+    &.section {
+      &.attributes {
+        color: @color-syntax-symbol;
+      }
+    }
+  }
+}

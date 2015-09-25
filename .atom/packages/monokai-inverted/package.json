@@ -1,0 +1,35 @@
+{
+  "name": "monokai-inverted",
+  "theme": "syntax",
+  "version": "0.7.0",
+  "private": true,
+  "description": "A monokai theme. For inverted screen colors.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JCCR/monokai.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "readme": "# Monokai theme\n\nA monokai syntax theme for Atom.\n\nOriginally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)\ntheme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).\n\n![](https://f.cloud.github.com/assets/671378/2265671/d02ebee8-9e85-11e3-9b8c-12b2cb7015e3.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/JCCR/monokai/issues"
+  },
+  "homepage": "https://github.com/JCCR/monokai",
+  "_id": "monokai-inverted@0.7.0",
+  "_shasum": "9e9326ba90b76b61a2bbfa03e973f37fb3347b72",
+  "_resolved": "file:../d-11582-23845-17en73u/package.tgz",
+  "_from": "../d-11582-23845-17en73u/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

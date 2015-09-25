@@ -1,0 +1,45 @@
+{
+  "name": "northem-light-atom-syntax",
+  "theme": "syntax",
+  "version": "0.8.0",
+  "description": "Northem is a north-bluish dark theme based on the same named color palette designed by Arctic Ice Studio.This is a light and more color-intensive variation.",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com"
+  },
+  "homepage": "http://arcticicestudio.com/Northem",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcticicestudio/northem-light-atom-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/northem-light-atom-syntax/issues"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "northem",
+    "bluish",
+    "light",
+    "syntax"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "readme": "# Northem Light Atom Syntax\n\n[![Northem Logo](https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/res/image/northem-logo.png)](http://arcticicestudio.com/Northem)\n\n### Description\nA north-bluish light theme based on the same named [color palette](https://github.com/arcticicestudio/northem) designed by [Arctic Ice Studio](http://arcticicestudio.com).  \nThis is a light and more color-intensive variation.\n\n![Northem Light Color Palette](https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/res/image/northem-light.png)\n\n![Northem Light Preview Screenshot](https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/res/image/preview-screenshot.png)\n\n### Variations\nAlso available as:  \n  - [Northem Atom Syntax](https://github.com/arcticicestudio/northem-atom-syntax)\n  - [Northem Dark Atom Syntax](https://github.com/arcticicestudio/northem-dark-atom-syntax)\n\n__Make sure to check out [Northem Light Atom UI](https://github.com/arcticicestudio/northem-light-atom-ui)!__\n\n### Other Projects\n  - <a href=\"https://github.com/arcticicestudio/northem-light-eclipse-syntax\"><img src=\"https://eclipse.org/favicon.ico\" alt=\"Eclipse logo\" width=16 height=16> Northem Light Eclipse Syntax</a>\n  - <a href=\"https://github.com/arcticicestudio/northem-light-gedit\"><img src=\"https://static.gnome.org/wiki.gnome.org/gnome/css/favicon.png\" alt=\"gedit logo\" width=16 height=16> Northem Light gedit</a>\n  - <a href=\"#\"><img src=\"http://www.gtk.org/images/gtk-logo.ico\" alt=\"GTK logo\" width=16 height=16> Northem Light GTK (in drafting)</a>\n  - <a href=\"https://github.com/arcticicestudio/northem-light-notepadplusplus\"><img src=\"http://notepad-plus-plus.org/assets/images/favicon.ico\" alt=\"Notepadd++ logo\" width=16 height=16> Northem Light Notepad++ (Windows only)</a>\n\nVisit the [official homepage](http://arcticicestudio.com/Northem) (actually under construction) for more informations.\n\n### Languages\nSyntax Highlighting actually includes:\n  - [C](https://atom.io/packages/language-c)\n  - [Clojure](https://atom.io/packages/language-clojure)\n  - [CoffeeScript](https://atom.io/packages/language-coffee-script)\n  - [CS (C#)](https://atom.io/packages/language-csharp)\n  - [CSS](https://atom.io/packages/language-css)\n  - [D](https://atom.io/packages/language-d)\n  - [GLSL](https://atom.io/packages/language-glsl)\n  - [diff](https://atom.io/packages/git-diff)\n  - [HAML](https://atom.io/packages/language-haml)\n  - [Haskell](https://atom.io/packages/language-haskell)\n  - [HTML](https://atom.io/packages/language-html)\n  - [Jade](https://atom.io/packages/language-jade)\n  - [Java](https://atom.io/packages/language-java)\n  - [JavaScript](https://atom.io/packages/language-javascript)\n  - [JSON](https://atom.io/packages/language-json)\n  - [Julia](https://atom.io/packages/language-julia)\n  - [LESS](https://atom.io/packages/language-lesss)\n  - [Markdown](https://atom.io/packages/language-gfm)\n  - [Mustache](https://atom.io/packages/language-mustache)\n  - [PHP](https://atom.io/packages/language-php)\n  - [Python](https://atom.io/packages/language-python)\n  - [R](https://atom.io/packages/language-r)\n  - [Ruby](https://atom.io/packages/language-ruby)\n  - [SASS](https://atom.io/packages/language-sass)\n  - [Shell](https://atom.io/packages/language-shellscript)\n  - [XML](https://atom.io/packages/language-xml)\n  - [YAML](https://atom.io/packages/language-yaml)\n\n### Version\n_stable_: [`0.8.0`](https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest)  \n_snapshot_: `/`\n\n_status_: `ìndev`\n\nFor older versions check out the [GitHub Repository](https://github.com/arcticicestudio/northem-light-atom-syntax) or the [official homepage](http://arcticicestudio.com/Northem) (actually under construction).\n\n### Changelog\n[`0.8.0`](CHANGELOG.md)\n\nCheck out the `CHANGELOG.md` file or open via _Settings > Packages_ and filter for `northem-light-atom-syntax`.  \nAll changelogs are available at the [GitHub Repository](https://github.com/arcticicestudio/northem-light-atom-syntax) and [official homepage](http://arcticicestudio.com/Northem) (actually under construction).\n\n### Development\nPlease report bugs and suggestions for improvement/language support [here](https://github.com/arcticicestudio/northem-light-atom-syntax/issues).\n\n### Recommendations\nThis theme matches the Open Source font [Source Code Pro](https://typekit.com/fonts/source-code-pro).  \nVisit the [GitHub Repository](https://github.com/adobe-fonts/source-code-pro) for more informations.\n\nThe colored file icons on the preview screenshot are provided by the [`file-icons`](https://atom.io/packages/file-icons) package.\n\n### Installation\nDownload and install the recommended font, read section [Recommendations](#Recommendations) for more informations.\n\nInstall via [apm](https://github.com/atom/apm): `apm install northem-light-atom-syntax`  \nAlternatively open _Settings > Install_, set the filter to _Themes_ and search for `northem-light-atom-syntax`.\n\nActivate it by going to the _Settings > Themes_ section and select `Northem Light` from the _Syntax Theme_ drop-down menu.\n\n### License\nCopyright (C) 2015 Arctic Ice Studio\n\nNorthem code is licensed under [GPL3](http://www.gnu.org/licenses/gpl.txt).  \nNorthem color palette itself is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0).\n\n---\n\n### References\n[Atom API-Documentation](https://atom.io/docs/api/latest/Atom)  \n[Atom Flight Manual](https://atom.io/docs)  \n[LESS](http://lesscss.org)\n",
+  "_id": "northem-light-atom-syntax@0.8.0",
+  "_shasum": "180c843303172d22405e7c707d002a2147ed008b",
+  "_resolved": "file:../d-11582-24455-13gb87i/package.tgz",
+  "_from": "../d-11582-24455-13gb87i/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "odin.json",
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

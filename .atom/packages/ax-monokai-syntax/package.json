@@ -1,0 +1,40 @@
+{
+  "name": "ax-monokai-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A Monokai theme for the Atom editor (SETI UI)",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.174.0 <2.0.0"
+  },
+  "keywords": [
+    "monokai",
+    "seti-ui",
+    "syntax",
+    "theme"
+  ],
+  "homepage": "https://github.com/alexbarton/atom-ax-monokai-syntax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexbarton/atom-ax-monokai-syntax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexbarton/atom-ax-monokai-syntax/issues"
+  },
+  "readme": "# AX Monokai theme\n\nA Monokai syntax theme for the Atom editor.\n\nMaintainer: [Alex Barton](https://github.com/alexbarton), <alex@barton.de>;\nProject Home: [GitHub](https://github.com/alexbarton/atom-ax-monokai-syntax).\n\nBased on the [seti-monokai](https://github.com/joaoafrmartins/seti-monokai)\ntheme of [João Afonso Martins](https://github.com/joaoafrmartins).\nOriginally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)\ntheme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).\n\n![](https://f.cloud.github.com/assets/671378/2265671/d02ebee8-9e85-11e3-9b8c-12b2cb7015e3.png)\n",
+  "readmeFilename": "README.md",
+  "_id": "ax-monokai-syntax@0.1.0",
+  "_shasum": "184a7631cb2ed528d3cd6de67152b0ef09098418",
+  "_resolved": "file:../d-11582-23550-16xamus/package.tgz",
+  "_from": "../d-11582-23550-16xamus/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

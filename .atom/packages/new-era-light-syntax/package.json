@@ -1,0 +1,42 @@
+{
+  "name": "new-era-light-syntax",
+  "theme": "syntax",
+  "version": "0.3.1",
+  "description": "Light theme syntax for coding on bright/shiny days",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juanmnl/new-era-light-syntax-theme.git"
+  },
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "keywords": [
+    "atom",
+    "syntax",
+    "theme"
+  ],
+  "author": {
+    "name": "juanmnl"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanmnl/new-era-light-theme/issues"
+  },
+  "homepage": "https://github.com/juanmnl/new-era-light-theme",
+  "readme": "# New era light Syntax Theme\n\nLight theme syntax for coding on bright/shiny days.\nBest used Atom's ONE LIGHT theme.\n\nIf you want to combine it with a great dark syntax,\ncheckout the dark version [New Era Syntax](https://atom.io/themes/new-era-syntax)\n\n## Screen\n\n![New-era-light screenshot](https://raw.githubusercontent.com/juanmnl/new-era-light-syntax-theme/master/screenshot.png)\n\n\nOpen Atom Preferences > Themes > Search: `new-era-light-syntax`,\nthen Install.\n\nActivate the theme by selecting the Themes section of Preferences.\n",
+  "readmeFilename": "README.md",
+  "_id": "new-era-light-syntax@0.3.1",
+  "_shasum": "91566af3955f0e2749c0b30e9c2a1720f76b03cc",
+  "_resolved": "file:../d-11582-24413-12lb3rs/package.tgz",
+  "_from": "../d-11582-24413-12lb3rs/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
