@@ -1,1 +1,0 @@
-{"*":{"exception-reporting":{"userId":"83f8b818-ce9e-2e89-adb6-7501bc385040"},"welcome":{"showOnStartup":false},"core":{"themes":["atom-material-ui","atom-material-syntax"],"disabledPackages":["vim-mode"]},"editor":{"invisibles":{}},"browser-plus":{},"atom-ternjs":{},"linter":{"showErrorTabLine":true}}}
