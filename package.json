@@ -1,0 +1,25 @@
+{
+  "name": "midas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adstastic/midas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adstastic/midas/issues"
+  },
+  "homepage": "https://github.com/adstastic/midas#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.12.14"
+  }
+}
