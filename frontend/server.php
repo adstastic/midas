@@ -33,7 +33,6 @@ if($scriptInvokedFromCli) {
 
 function routeRequest()
 {
-               // get JSON data
     $uri = $_SERVER['REQUEST_URI'];                                   
     if ($uri == '/') {  
         echo file_get_contents('./public/index.html');
@@ -51,8 +50,10 @@ function getData()
         $commentsDecoded = json_decode($comments, true);    
         $commentsDecoded[] = [
                 'id'      => round(microtime(true) * 1000),
-                'name'  => $_POST['name'],
-                'email'    => $_POST['email']
+                'fname'  => $_POST['fname'],
+                'lname'  => $_POST['fname'],
+                'email'    => $_POST['email'],
+                'pass'  => $_POST['pass'],
             ];
 
         $comments = json_encode($commentsDecoded, JSON_PRETTY_PRINT);
