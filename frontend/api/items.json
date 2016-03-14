@@ -1,12 +1,9 @@
 [
     {
-        "id": 1388534400000,
-        "name": "Amulet of Fyek",
-        "description": "Grants user infinite fyek."
-    },
-    {
-        "id": 1420070400000,
-        "name": "Holy guacamole of North Pole",
-        "description": "Makes your north pole into south pole."
+        "image"     : "http://placehold.it/320x150",
+        "name"      : "First Product",
+        "desc"      : "Does some cool shit.",
+        "reviews"   : ["Great", "Pretty good", "not bad"],
+        "rating"    : "8/10"
     }
 ]
